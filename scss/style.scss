@@ -1,0 +1,39 @@
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #4E5158;
+    font-family: made_evolve_sans;
+   
+}
+
+@font-face {
+    font-family: kymer_awon;
+    src: url(../Fonts/kymer_awon/kymerawon-regularsc.otf);
+}
+
+@font-face {
+    font-family: made_evolve_sans;
+    src: url(../Fonts/made_evolve_sans/MADE\ Evolve\ Sans\ Light\ \(PERSONAL\ USE\).otf);
+}
+
+
+@import url(../import/navbar_1519px.css);
+@import url(../import/section_balance.css);
+@import url(../import/section_about.css);
+@import url(../import/section_classes.css);
+@import url(../import/section_tariffs.css);
+@import url(../import/section_gallery.css);
+@import url(../import/section_reviews.css);
+@import url(../import/form.css);
+@import url(../import/footer.css);
+@import url(../import/adaptive_290.css);
+@import url(../import/adaptiv_410.css);
+@import url(../import/adaptiv_768.css);
+@import url(../import/adaptiv_1024.css);
+@import url(../import/adaptive_all.css);
+//@import url(../import/animation.css);

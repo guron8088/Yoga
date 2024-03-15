@@ -1,0 +1,118 @@
+@media screen and (min-width: 1519px) {
+  .form_block {
+    margin-top: 50px;
+  }
+  .form_block .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  #form_head {
+    text-align: left;
+    position: relative;
+    right: 50px;
+  }
+  .form_block .container .left_form_block {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 150px;
+  }
+  .form_block .container .left_form_block .brush_up {
+    position: relative;
+    width: 40%;
+    z-index: 0;
+    top: 120px;
+    right: 120px;
+    rotate: 5.33deg;
+  }
+  .data {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .right_form_block .form_girls {
+    position: relative;
+    background-image: url(../img/girls_group.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50vw;
+    height: 70vh;
+  }
+  .brush_form_first {
+    position: relative;
+    left: 360px;
+    top: 85px;
+    width: 162.28px;
+    height: 122px;
+    rotate: 93.02deg;
+    z-index: 1;
+  }
+  .brush_form_second {
+    position: relative;
+    left: 110px;
+    bottom: 80px;
+    width: 162.28px;
+    height: 122px;
+    rotate: -85.09deg;
+    z-index: 1;
+  }
+  .floral_3 {
+    position: relative;
+    left: 200px;
+    bottom: 70px;
+    width: 47.72px;
+    height: 96.01px;
+    z-index: 2;
+    rotate: -10deg;
+  }
+  .floral_4 {
+    position: relative;
+    width: 77.72px;
+    height: 66.01px;
+    left: 490px;
+    top: 70px;
+    rotate: 9.09deg;
+    z-index: 2;
+  }
+  .checkbox {
+    margin-top: 30px;
+    margin-right: 60px;
+    text-align: left;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+  .name,
+  .phone,
+  .mail {
+    border: none;
+    border-bottom: 1px solid rgba(78, 81, 88, 0.4);
+    width: 611.82px;
+    margin-top: 44px;
+    font-size: 24px;
+    width: 80%;
+  }
+  #you_name,
+  #phone,
+  #post {
+    font-size: 24px;
+    font-weight: 250;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4e5158;
+  }
+  #form_btn {
+    position: relative;
+    top: 30px;
+  }
+}/*# sourceMappingURL=form.css.map */

@@ -1,0 +1,885 @@
+@media screen and (min-width: 1409px) and (max-width: 1519px) {
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar .container .nav_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .navbar .container .nav_block .logo_balance {
+    font-family: kymer_awon;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+  }
+  .navbar .container .nav_block .middle .balance {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 36px;
+    margin: 10px;
+  }
+  .navbar .container .nav_block .middle .balance .nav_item {
+    text-decoration: none;
+  }
+  .navbar .container .nav_block .middle .balance .nav_item .link_item {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: made_evolve_sans;
+    text-decoration: none;
+    color: #4e5158;
+  }
+  #first_item {
+    border-bottom: 1px solid #d8968d;
+  }
+  .navbar .container .nav_block .language {
+    position: relative;
+    left: 300px;
+  }
+  .navbar .container .nav_block .language .lang {
+    font-family: made_evolve_sans;
+    font-size: 16px;
+    font-weight: 1000;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-decoration: none;
+  }
+  .navbar .container .nav_block .language .lang .eng {
+    font-family: made_evolve_sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-decoration: none;
+  }
+  .middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .yoga_girl {
+    margin: 80px auto;
+  }
+  .yoga_girl .container .balance_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .yoga_girl .container .balance_logo .left_logo_wrap {
+    left: 160px;
+    position: absolute;
+    z-index: 1;
+    bottom: 30px;
+  }
+  .yoga_girl .container .balance_logo .left_logo_wrap .bal_text_studio_l {
+    font-family: kymer_awon;
+    font-size: 140px;
+    font-weight: 400;
+  }
+  .yoga_girl .container .balance_logo .left_logo_wrap .bal_logo {
+    position: relative;
+    width: 175.82px;
+    height: 106.35px;
+    rotate: 21.57deg;
+    left: 172px;
+    top: 50px;
+  }
+  .yoga_girl .container .balance_logo .harmony {
+    position: relative;
+    bottom: 105px;
+    left: 20px;
+  }
+  .yoga_girl .container .balance_logo .left_logo_wrap .harmony_txt {
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+  .yoga_girl .container .balance_logo .left_logo_wrap .shape {
+    position: relative;
+    width: 137.22px;
+    height: 182.68px;
+    rotate: 120.01deg;
+    left: 300px;
+    bottom: 100px;
+  }
+  .btn_grp {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 80px;
+    right: 80px;
+  }
+  .btn_grp .btn_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .btn_grp .btn_left .btn_subscribe {
+    border: none;
+    background-color: white;
+  }
+  .btn_grp .btn_left .btn_subscribe .subscr {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4e5158;
+  }
+  .btn_grp .btn_left .btn_vectr .vector_one {
+    width: 66.22px;
+    position: relative;
+    left: 25px;
+    top: 3px;
+  }
+  .btn_grp .btn_left .btn_vectr .ellipse {
+    width: 44.98px;
+    height: 44.64px;
+    position: relative;
+    right: 4px;
+    z-index: -1;
+    bottom: 2px;
+  }
+  .yoga_girl .container .balance_logo .girl {
+    position: absolute;
+    width: 80vw;
+    height: 80vh;
+    background-image: url(../img/girl_yoga.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+  }
+  .yoga_girl .container .balance_logo .right_logo_wrap {
+    position: absolute;
+    z-index: 1;
+    right: 140px;
+    top: 220px;
+  }
+  .yoga_girl .container .balance_logo .right_logo_wrap .bal_text_studio_r {
+    font-family: kymer_awon;
+    font-size: 140px;
+    font-weight: 400;
+  }
+  .yoga_girl .container .balance_logo .right_logo_wrap .std_logo {
+    position: relative;
+    left: 195px;
+    top: 35px;
+    width: 103.57px;
+    height: 101.65px;
+    rotate: 2.42deg;
+  }
+  .yoga_girl .container .balance_logo .right_logo_wrap .yps {
+    font-size: 20px;
+    letter-spacing: 0;
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .about .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .head {
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .about .container .about_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    margin-top: 50px;
+  }
+  .about .container .about_wrapper .about_img {
+    margin-left: 120px;
+    width: 60vw;
+    height: 60vh;
+    background-image: url(../img/about.jpeg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .about .container .about_wrapper .about_img .brush_gr_left {
+    position: relative;
+    right: 90px;
+    bottom: 40px;
+  }
+  .about .container .about_wrapper .about_img .brush_gr_left .brush_left {
+    width: 208.49px;
+    height: 129.09px;
+    rotate: -15.34deg;
+  }
+  .about .container .about_wrapper .about_img .brush_gr_left .flor {
+    rotate: -2.58deg;
+    position: relative;
+    right: 200px;
+    z-index: 1;
+  }
+  .about .container .about_wrapper .about_img .brush_gr_right {
+    position: relative;
+    left: 330px;
+    top: 150px;
+  }
+  .about .container .about_wrapper .about_img .brush_gr_right .brush_ic {
+    width: 208.49px;
+    height: 129.09px;
+    position: relative;
+    z-index: 1;
+    top: 60px;
+    left: 30px;
+    rotate: -15.34deg;
+  }
+  .about .container .about_wrapper .about_img .brush_gr_right .flor_right {
+    position: relative;
+    right: 140px;
+    top: 50px;
+    z-index: 1;
+    rotate: 95.72deg;
+  }
+  .about .container .about_studio {
+    width: 70%;
+  }
+  .about .container .about_studio .st_balance {
+    font-size: 24px;
+    font-weight: 250;
+  }
+  .bal {
+    font-weight: 700;
+  }
+  .about .container .about_studio .point {
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: 250;
+  }
+  .about .container .about_wrapper .studio {
+    background-color: #fff;
+    border: none;
+  }
+  .about .container .about_wrapper .studio .about_studio_btn {
+    position: relative;
+    top: 35px;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #d8968d;
+  }
+  .sport {
+    margin-top: 200px;
+  }
+  .sport .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .sport .container .classes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 50px;
+    width: 100%;
+  }
+  .sport .classes .yoga {
+    background-color: #f1c9c4;
+    text-transform: uppercase;
+    text-align: center;
+    width: 15vw;
+    height: 5vh;
+  }
+  .classes_yoga {
+    margin-top: 10px;
+    text-align: left;
+  }
+  .sport .classes .pilates,
+  .sport .classes .stretching {
+    width: 15vw;
+    height: 5vh;
+    border: 2px solid #f1c9c4;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 35px;
+  }
+  .sport .classes .yoga .yoga_text,
+  .sport .classes .pilates .pilates_text,
+  .sport .classes .stretching .stretching_text {
+    font-size: 24px;
+    font-weight: 300;
+    color: #4e5158;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .sport .container .classes_wrapper .fitness {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+  }
+  .sport .container .classes_wrapper .fitness .kundalini {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sport .container .classes_wrapper .fitness .kundalini .kundalini_yoga {
+    background-image: url(../img/kundalini.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30vw;
+    height: 50vh;
+  }
+  .sport .container .classes_wrapper .fitness .hatha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sport .container .classes_wrapper .fitness .hatha .hatha_yoga {
+    background-image: url(../img/hatha.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30vw;
+    height: 50vh;
+  }
+  .sport .container .classes_wrapper .fitness .vinyasa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sport .container .classes_wrapper .fitness .vinyasa .vinyasa_yoga {
+    background-image: url(../img/vinyasa.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30vw;
+    height: 50vh;
+  }
+  .vector_one_flor {
+    position: relative;
+  }
+  .ellipse_flor {
+    position: relative;
+  }
+  #btn_kundalini, #btn_hatha {
+    position: relative;
+    top: 10px;
+    left: 20px;
+  }
+  #girl_btn_hatha {
+    position: relative;
+    top: 10px;
+    left: 25px;
+  }
+  #girl_btn_kundalini {
+    position: relative;
+    top: 10px;
+    left: 30px;
+  }
+  .sport .container .classes_wrapper .fitness .vinyasa .btn_grp .btn_left .btn_subscribe .subscr {
+    font-size: 18px;
+  }
+  .sport .container .classes_wrapper .fitness .hatha .btn_grp .btn_left .btn_subscribe .subscr {
+    font-size: 18px;
+  }
+  .sport .container .classes_wrapper .fitness .kundalini .btn_grp .btn_left .btn_subscribe .subscr {
+    font-size: 18px;
+  }
+  #btn_kundalini_sub {
+    font-size: 24px;
+  }
+  #girl_btn_new {
+    position: relative;
+    top: 10px;
+    left: 30px;
+  }
+  #girl_btn_new_vector {
+    width: 30%;
+  }
+  #girl_btn_new_ellipse {
+    position: relative;
+    width: 25%;
+    height: 2%;
+  }
+  .tariffs {
+    margin-top: 100px;
+  }
+  .tariffs .container .tariffs_group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 88.91px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .tariffs .container .tariffs_group .subscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 88.91px;
+    width: 80%;
+    height: 500.14px;
+    border: 1px solid #4e5158;
+  }
+  hr {
+    margin-top: 30px;
+  }
+  .tariffs .container .tariffs_group .subscription .subscription_inside_wrapper .subscription_head {
+    font-weight: 200;
+    text-align: center;
+  }
+  .tariffs .container .tariffs_group .subscription .subscription_text {
+    margin-top: 30px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .tariffs .container .tariffs_group .subscription_middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 88.91px;
+    width: 80%;
+    height: 500.14px;
+    background-color: #f1c9c4;
+  }
+  .tariffs .container .tariffs_group .subscription_middle .subscription_head_mid {
+    text-align: center;
+  }
+  .tariffs .container .tariffs_group .subscription_middle .subscription_text_mid {
+    margin-top: 30px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .tariffs .container .tariffs_group .subscription .subscription_inside_wrapper .price {
+    font-family: kymer_awon;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .tariffs .container .tariffs_group .subscription_middle .price_mid {
+    font-family: kymer_awon;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .tariffs .container .tariffs_group .subscription .subscription_inside_wrapper .price_eight {
+    font-family: kymer_awon;
+    font-size: 24px;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-weight: 600;
+  }
+  .tariffs .container .tariffs_group .subscription .subscription_inside_wrapper .price .currency {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4e5158;
+  }
+  .tariffs_span {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .tariffs .tariffs_group .subscription_middle .value_mid {
+    width: 100%;
+    border: 1px solid #4e5158;
+    background-color: #f1c9c4;
+    font-size: 32px;
+    color: #4e5158;
+  }
+  .tariffs .tariffs_group .subscription_middle .value_mid .btn_value_mid {
+    font-weight: 100;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 32px;
+    color: #4e5158;
+  }
+  .tariffs .tariffs_group .subscription .subscription_inside_wrapper .value {
+    width: 100%;
+    font-weight: 100;
+    background-color: #fff;
+    border: 1px solid #4e5158;
+    font-size: 32px;
+    color: #4e5158;
+  }
+  .tariffs .tariffs_group .subscription .subscription_inside_wrapper .value .btn_value {
+    font-weight: 250;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 32px;
+    color: #4e5158;
+  }
+  .floral_img_left {
+    position: absolute;
+    width: 85px;
+    height: 137px;
+    rotate: 32deg;
+    top: 2785px;
+    right: 1323px;
+    rotate: -360deg;
+    transform: scale(-1, 1);
+  }
+  .floral_img_mid {
+    position: absolute;
+    width: 105px;
+    height: 117px;
+    top: 2545px;
+    left: 845px;
+    rotate: 20deg;
+  }
+  .floral_img_right {
+    position: absolute;
+    width: 85px;
+    height: 137px;
+    rotate: 32deg;
+    top: 2785px;
+    right: 110px;
+    rotate: -360deg;
+  }
+  #tariffs_group_btn {
+    margin-top: 150px;
+    margin-left: 200px;
+  }
+  .gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100px;
+  }
+  .gallery .head {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 55px;
+    text-align: center;
+    color: #4e5158;
+    position: relative;
+    bottom: 40px;
+  }
+  .gallery .gallery_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 40px;
+  }
+  .gallery .gallery_img .img_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 47.05px;
+  }
+  .gallery .gallery_img .img_wrapper .plate_img {
+    background-image: url("../img/gallery_img.jpeg");
+    width: 333.95px;
+    height: 500.43px;
+    background-size: cover;
+    position: relative;
+    bottom: 25px;
+  }
+  .gallery .gallery_img .img_wrapper .girl_img {
+    background-image: url("../img/gallery_girl.jpeg");
+    margin-top: 80px;
+    width: 333.95px;
+    height: 500.43px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .gallery .gallery_img .img_wrapper .gallery_yoga_img {
+    background-image: url("../img/gallery_yoga_girl.jpeg");
+    width: 333.95px;
+    height: 500.43px;
+    background-size: cover;
+    position: relative;
+    bottom: 25px;
+  }
+  .gallery .gallery_img .switch_lft,
+  .gallery .gallery_img .switch_rght {
+    margin: 0 47px;
+    width: 94.27px;
+    height: 47.13px;
+    position: relative;
+    bottom: 62px;
+  }
+  .reviews {
+    margin-top: 100px;
+  }
+  .reviews .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid #F1C9C4;
+  }
+  .reviews .container .review {
+    margin: 50px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+  }
+  .reviews .container .review .review_text {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+  }
+  .reviews .container .review .review_photo {
+    background-image: url(../img/review_img.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+    margin-top: 20px;
+  }
+  .reviews .container .review .name_review {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  .form_block {
+    margin-top: 50px;
+  }
+  .form_block .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  #form_head {
+    text-align: left;
+    position: relative;
+    right: 50px;
+  }
+  .form_block .container .left_form_block {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 150px;
+  }
+  .form_block .container .left_form_block .brush_up {
+    position: relative;
+    width: 40%;
+    z-index: 0;
+    top: 120px;
+    right: 120px;
+    rotate: 5.33deg;
+  }
+  .data {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .right_form_block .form_girls {
+    position: relative;
+    background-image: url(../img/girls_group.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50vw;
+    height: 70vh;
+  }
+  .brush_form_first {
+    position: relative;
+    left: 360px;
+    top: 85px;
+    width: 162.28px;
+    height: 122px;
+    rotate: 93.02deg;
+    z-index: 1;
+  }
+  .brush_form_second {
+    position: relative;
+    left: 110px;
+    bottom: 80px;
+    width: 162.28px;
+    height: 122px;
+    rotate: -85.09deg;
+    z-index: 1;
+  }
+  .floral_3 {
+    position: relative;
+    left: 200px;
+    bottom: 70px;
+    width: 47.72px;
+    height: 96.01px;
+    z-index: 2;
+    rotate: -10deg;
+  }
+  .floral_4 {
+    position: relative;
+    width: 77.72px;
+    height: 66.01px;
+    left: 490px;
+    top: 70px;
+    rotate: 9.09deg;
+    z-index: 2;
+  }
+  .checkbox {
+    margin-top: 30px;
+    margin-right: 60px;
+    text-align: left;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+  .name,
+  .phone,
+  .mail {
+    border: none;
+    border-bottom: 1px solid rgba(78, 81, 88, 0.4);
+    width: 611.82px;
+    margin-top: 44px;
+    font-size: 24px;
+    width: 80%;
+  }
+  #you_name,
+  #phone,
+  #post {
+    font-size: 24px;
+    font-weight: 250;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4e5158;
+  }
+  #form_btn {
+    position: relative;
+    top: 30px;
+  }
+  .yoga_footer {
+    background-color: #f1c9c4;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100%;
+    z-index: 1;
+    padding: 20px;
+  }
+  .yoga_footer .container .footer_group {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .yoga_footer .container .footer_group .flor_left {
+    position: relative;
+    right: 150px;
+    top: 80px;
+    rotate: 31.41deg;
+  }
+  li {
+    list-style-type: none;
+  }
+  .yoga_footer .container .footer_group .left_side .left_menu {
+    text-align: center;
+    position: relative;
+    right: 50px;
+  }
+  .yoga_footer .container .footer_group .left_side .left_menu .head_item {
+    font-family: kymer_awon;
+    font-size: 24px;
+    text-align: center;
+  }
+  .bulb_middle {
+    width: 100px;
+    rotate: -86.4deg;
+  }
+  .yoga_footer .container .footer_group .middle_side {
+    position: relative;
+    top: 10px;
+    line-height: 30px;
+  }
+  .flor_two_left {
+    width: 100px;
+  }
+  .bulb_middle_down {
+    position: relative;
+    left: 130px;
+    top: 90px;
+  }
+  .yoga_footer .container .down_text {
+    margin-top: 50px;
+    text-align: center;
+  }
+  #link_info {
+    font-family: made_evolve_sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4e5158;
+  }
+  #user_info {
+    font-family: made_evolve_sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4e5158;
+  }
+}/*# sourceMappingURL=adaptive_all.css.map */

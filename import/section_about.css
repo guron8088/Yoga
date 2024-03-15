@@ -1,0 +1,102 @@
+@media screen and (min-width: 1519px) {
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .about .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .head {
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .about .container .about_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    margin-top: 50px;
+  }
+  .about .container .about_wrapper .about_img {
+    margin-left: 120px;
+    width: 60vw;
+    height: 60vh;
+    background-image: url(../img/about.jpeg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .about .container .about_wrapper .about_img .brush_gr_left {
+    position: relative;
+    right: 90px;
+    bottom: 40px;
+  }
+  .about .container .about_wrapper .about_img .brush_gr_left .brush_left {
+    width: 208.49px;
+    height: 129.09px;
+    rotate: -15.34deg;
+  }
+  .about .container .about_wrapper .about_img .brush_gr_left .flor {
+    rotate: -2.58deg;
+    position: relative;
+    right: 200px;
+    z-index: 1;
+  }
+  .about .container .about_wrapper .about_img .brush_gr_right {
+    position: relative;
+    left: 330px;
+    top: 150px;
+  }
+  .about .container .about_wrapper .about_img .brush_gr_right .brush_ic {
+    width: 208.49px;
+    height: 129.09px;
+    position: relative;
+    z-index: 1;
+    top: 60px;
+    left: 30px;
+    rotate: -15.34deg;
+  }
+  .about .container .about_wrapper .about_img .brush_gr_right .flor_right {
+    position: relative;
+    right: 140px;
+    top: 50px;
+    z-index: 1;
+    rotate: 95.72deg;
+  }
+  .about .container .about_studio {
+    width: 70%;
+  }
+  .about .container .about_studio .st_balance {
+    font-size: 24px;
+    font-weight: 250;
+  }
+  .bal {
+    font-weight: 700;
+  }
+  .about .container .about_studio .point {
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: 250;
+  }
+  .about .container .about_wrapper .studio {
+    background-color: #fff;
+    border: none;
+  }
+  .about .container .about_wrapper .studio .about_studio_btn {
+    position: relative;
+    top: 35px;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #d8968d;
+  }
+}/*# sourceMappingURL=section_about.css.map */

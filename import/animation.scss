@@ -1,0 +1,31 @@
+.navbar .container .nav_block .middle .balance .nav_item .link_item:hover {
+    font-size: 20px;
+    color: #d8968d;
+    transition: 0.3s;
+}
+
+@keyframes headMove {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+    
+}
+
+
+@keyframes headMove1 {
+    from {
+        background-color: #d8968d;
+        border-radius: 20px;
+    }
+
+    to {
+        background-color: #ffbbb2;
+        border-radius: 100px;
+        padding: 10px;
+    }
+    
+}

@@ -1,0 +1,75 @@
+@media screen and (min-width: 1519px) {
+    .gallery {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 100px;
+    }
+    
+    .gallery .head {
+        font-size: 48px;
+        font-weight: 300;
+        line-height: 55px;
+        text-align: center;
+        color: #4e5158;
+        position: relative;
+        bottom: 40px;
+    }
+    
+    .gallery .gallery_img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 40px;
+    }
+    
+    .gallery .gallery_img .img_wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        column-gap: 47.05px;
+    }
+    
+    .gallery .gallery_img .img_wrapper .plate_img {
+        background-image: url("../img/gallery_img.jpeg");
+        width: 333.95px;
+        height: 500.43px;
+        background-size: cover;
+        position: relative;
+        bottom: 25px;
+    }
+    
+    .gallery .gallery_img .img_wrapper .girl_img {
+        background-image: url("../img/gallery_girl.jpeg");
+        margin-top: 80px;
+        width: 333.95px;
+        height: 500.43px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .gallery .gallery_img .img_wrapper .gallery_yoga_img {
+        background-image: url("../img/gallery_yoga_girl.jpeg");
+        width: 333.95px;
+        height: 500.43px;
+        background-size: cover;
+        position: relative;
+        bottom: 25px;
+    }
+    
+    
+    
+    .gallery .gallery_img .switch_lft,
+    .gallery .gallery_img .switch_rght {
+        margin: 0 47px;
+        width: 94.27px;
+        height: 47.13px;
+        position: relative;
+        bottom: 62px;
+    }
+}

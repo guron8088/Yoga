@@ -1,0 +1,40 @@
+@media screen and (min-width: 1519px) {
+  .reviews {
+    margin-top: 100px;
+  }
+  .reviews .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid #F1C9C4;
+  }
+  .reviews .container .review {
+    margin: 50px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+  }
+  .reviews .container .review .review_text {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+  }
+  .reviews .container .review .review_photo {
+    background-image: url(../img/review_img.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+    margin-top: 20px;
+  }
+  .reviews .container .review .name_review {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=section_reviews.css.map */

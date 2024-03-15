@@ -1,0 +1,188 @@
+
+@media screen and (min-width: 1519px) {
+    .sport {
+        margin-top: 200px;
+    }
+    .sport .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .sport .container .classes {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        column-gap: 50px;
+        width: 100%;
+    }
+    
+    .sport .classes .yoga {
+        background-color: #f1c9c4;
+        text-transform: uppercase;
+        text-align: center;
+        width: 15vw;
+        height: 5vh;
+    }
+    
+    .classes_yoga {
+        margin-top: 10px;
+        text-align: left;
+    }
+    
+    .sport .classes .pilates,
+    .sport .classes .stretching {
+        width: 15vw;
+        height: 5vh;
+        border: 2px solid #f1c9c4;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 35px;
+    }
+    
+    .sport .classes .yoga .yoga_text,
+    .sport .classes .pilates .pilates_text,
+    .sport .classes .stretching .stretching_text {
+        font-size: 24px;
+        font-weight: 300;
+        color: #4e5158;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    .sport .container .classes_wrapper .fitness {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    
+        width: 100%;
+    }
+    
+    .sport .container .classes_wrapper .fitness .kundalini {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .sport .container .classes_wrapper .fitness .kundalini .kundalini_yoga {
+        background-image: url(../img/kundalini.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 30vw;
+        height: 50vh;
+    }
+    
+    .sport .container .classes_wrapper .fitness .hatha {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .sport .container .classes_wrapper .fitness .hatha .hatha_yoga {
+        background-image: url(../img/hatha.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 30vw;
+        height: 50vh;
+    }
+    
+    .sport .container .classes_wrapper .fitness .vinyasa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .sport .container .classes_wrapper .fitness .vinyasa .vinyasa_yoga {
+        
+        background-image: url(../img/vinyasa.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 30vw;
+        height: 50vh;
+    }
+    
+    .vector_one_flor {
+        position: relative;
+    }
+    
+    .ellipse_flor {
+        position: relative;
+    }
+    
+    #btn_kundalini, #btn_hatha {
+        position: relative;
+        top: 10px;
+        left: 20px;
+        
+    
+    }
+    
+    #girl_btn_hatha {
+        position: relative;
+        top: 10px;
+        left: 25px;
+        
+    
+    }
+    
+    #girl_btn_kundalini {
+        position: relative;
+        top: 10px;
+        left: 30px;
+    }
+    
+     
+    
+    
+    
+    .sport .container .classes_wrapper .fitness .vinyasa .btn_grp .btn_left .btn_subscribe .subscr {
+        font-size: 18px;
+    }
+    
+    
+    .sport .container .classes_wrapper .fitness .hatha .btn_grp .btn_left .btn_subscribe .subscr {
+       
+        font-size: 18px;
+    }
+    
+    .sport .container .classes_wrapper .fitness .kundalini .btn_grp .btn_left .btn_subscribe .subscr {
+        font-size: 18px;
+    }
+    
+    
+    
+    
+    #btn_kundalini_sub {
+        font-size: 24px;
+    }
+    
+    #girl_btn_new {
+        position: relative;
+        top: 10px;
+        left: 30px;
+    }
+    
+    #girl_btn_new_vector {
+        width: 30%;
+    }
+    
+    #girl_btn_new_ellipse {
+        position: relative;
+        
+        width: 25%;
+        height: 2%;
+    }
+}
+

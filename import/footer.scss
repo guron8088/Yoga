@@ -1,0 +1,95 @@
+@media screen and (min-width: 1519px) {
+    .yoga_footer {
+        background-color: #f1c9c4;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 100px;
+    
+        width: 100%;
+    
+        z-index: 1;
+        padding: 20px;
+    }
+    
+    .yoga_footer .container .footer_group {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .yoga_footer .container .footer_group .flor_left {
+        position: relative;
+        right: 150px;
+        top: 80px;
+        rotate: 31.41deg;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+    
+    .yoga_footer .container .footer_group .left_side .left_menu {
+        text-align: center;
+        position: relative;
+        right: 50px;
+    }
+    
+    .yoga_footer .container .footer_group .left_side .left_menu .head_item {
+        font-family: kymer_awon;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .bulb_middle {
+        width: 100px;
+    
+        rotate: -86.4deg;
+    }
+    
+    .yoga_footer .container .footer_group .middle_side {
+        position: relative;
+        top: 10px;
+        line-height: 30px;
+    }
+    
+    .flor_two_left {
+        width: 100px;
+    }
+    
+    .bulb_middle_down {
+        position: relative;
+        left: 130px;
+        top: 90px;
+    }
+    
+    .yoga_footer .container .down_text {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    #link_info {
+        font-family: made_evolve_sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4e5158;
+    }
+    
+    #user_info {
+        font-family: made_evolve_sans;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4e5158;
+    }
+    
+}
+

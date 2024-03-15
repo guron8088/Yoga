@@ -1,0 +1,185 @@
+@media screen and (min-width: 1519px) {
+    .tariffs {
+        margin-top: 100px;
+    }
+    
+    .tariffs .container .tariffs_group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        column-gap: 88.91px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    .tariffs .container .tariffs_group .subscription {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        column-gap: 88.91px;
+        width: 80%;
+        height: 500.14px;
+        border: 1px solid #4e5158;
+    }
+    
+    hr {
+        margin-top: 30px;
+    }
+    
+    .tariffs .container .tariffs_group .subscription .subscription_inside_wrapper .subscription_head {
+        font-weight: 200;
+        text-align: center;
+    }
+    
+    .tariffs .container .tariffs_group .subscription .subscription_text {
+        margin-top: 30px;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    .tariffs .container .tariffs_group .subscription_middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        column-gap: 88.91px;
+        width: 80%;
+        height: 500.14px;
+        background-color: #f1c9c4;
+    }
+    
+    .tariffs .container .tariffs_group .subscription_middle .subscription_head_mid {
+        text-align: center;
+    }
+    
+    .tariffs .container .tariffs_group .subscription_middle .subscription_text_mid {
+        margin-top: 30px;
+    
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    .tariffs .container .tariffs_group .subscription .subscription_inside_wrapper .price {
+        font-family: kymer_awon;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    .tariffs .container .tariffs_group .subscription_middle .price_mid {
+        font-family: kymer_awon;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    .tariffs .container .tariffs_group .subscription .subscription_inside_wrapper .price_eight {
+        font-family: kymer_awon;
+        font-size: 24px;
+    
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .tariffs .container .tariffs_group .subscription .subscription_inside_wrapper .price .currency {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #4e5158;
+    }
+    
+    .tariffs_span {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    
+    .tariffs .tariffs_group .subscription_middle .value_mid {
+        width: 100%;
+    
+        border: 1px solid #4e5158;
+        background-color: #f1c9c4;
+        font-size: 32px;
+        color: #4e5158;
+    }
+    
+    .tariffs .tariffs_group .subscription_middle .value_mid .btn_value_mid {
+        font-weight: 100;
+        line-height: 37px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 32px;
+        color: #4e5158;
+    }
+    
+    .tariffs .tariffs_group .subscription .subscription_inside_wrapper .value {
+        width: 100%;
+        font-weight: 100;
+        background-color: #fff;
+        border: 1px solid #4e5158;
+    
+        font-size: 32px;
+        color: #4e5158;
+    }
+    
+    .tariffs .tariffs_group .subscription .subscription_inside_wrapper .value .btn_value {
+        font-weight: 250;
+        line-height: 37px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 32px;
+        color: #4e5158;
+    }
+    
+    .floral_img_left {
+        position: absolute;
+        width: 85px;
+        height: 137px;
+        rotate: 32deg;
+        top: 2785px;
+        right: 1323px;
+        rotate: -360deg;
+        transform: scale(-1, 1);
+    }
+    
+    .floral_img_mid {
+        position: absolute;
+        width: 105px;
+        height: 117px;
+        top: 2545px;
+        left: 845px;
+        rotate: 20deg;
+    }
+    
+    .floral_img_right {
+        position: absolute;
+        width: 85px;
+        height: 137px;
+        rotate: 32deg;
+        top: 2785px;
+        right: 110px;
+        rotate: -360deg;
+    }
+    
+    
+    #tariffs_group_btn {
+        margin-top: 150px;
+        margin-left: 200px;
+    }
+    
+}
+
+
